@@ -1,6 +1,5 @@
 import React from 'react';
-import TrendingCoin from './TrendingCoin'; // Ensure you have this component
-import './App.css'; // Your CSS file for App styling
+import TrendingMemeCoins from './TrendingMemeCoins';
 
 function App() {
   return (
@@ -8,7 +7,7 @@ function App() {
       <header className="App-header">
         <h1>Crypto Dashboard</h1>
       </header>
-      <TrendingCoin />
+      <TrendingMemeCoins />
     </div>
   );
 }
